@@ -18,25 +18,26 @@ An end-to-end machine learning web application that predicts student exam scores
 
 ## 📁 Project Structure
 
-├── artifacts/ # Saved datasets and model files
-│ ├── model.pkl
-│ ├── preprocessor.pkl
-│ ├── train.csv / test.csv
-├── notebook/ # Jupyter notebooks for EDA and model training
-│ ├── 1.EDA_Student_Performance.ipynb
-│ └── 2.Model_Selection.ipynb
+├── artifacts/                  # Saved datasets and model files
+│   ├── model.pkl
+│   ├── preprocessor.pkl
+│   ├── train.csv
+│   └── test.csv
+├── notebook/                   # Jupyter notebooks for EDA and model training
+│   ├── 1.EDA_Student_Performance.ipynb
+│   └── 2.Model_Selection.ipynb
 ├── src/
-│ └── pipeline/ # Custom ML pipeline scripts
-│ └── components/ # Data ingestion, transformation, model training
-├── static/ # CSS styling
-│ └── style.css
-├── templates/ # HTML templates
-│ ├── index.html
-│ └── home.html
-├── application.py # Flask entry point
+│   ├── pipeline/               # Custom ML pipeline scripts
+│   └── components/             # Data ingestion, transformation, model training
+├── static/                     # CSS styling
+│   └── style.css
+├── templates/                  # HTML templates
+│   ├── index.html
+│   └── home.html
+├── application.py              # Flask entry point
 ├── requirements.txt
 ├── setup.py
-├── .ebextensions/ # AWS EB config
+├── .ebextensions/              # AWS Elastic Beanstalk configuration
 
 
 ## ☁️ Deployment
